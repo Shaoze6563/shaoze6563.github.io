@@ -22,3 +22,6 @@ html{scroll-behavior:smooth;scroll-padding-top:32px}.home-page .page{display:blo
 
 /* Smaller background for phones; identical crop and positioning. */
 @media(max-width:600px){.background{background-image:url("images/webb-deep-field-mobile.webp")}}
+
+/* Chinese name groups with the English name above the affiliation. */
+.hero-identity .hero-chinese-name{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:clamp(18px,2.25vw,36px);font-weight:400;line-height:1.5;letter-spacing:.25em;text-indent:.25em;color:#fffffff0;margin:-8px 0 27px}@media(max-width:700px){.hero-identity .hero-chinese-name{font-size:18px;margin:-7px 0 24px}}
